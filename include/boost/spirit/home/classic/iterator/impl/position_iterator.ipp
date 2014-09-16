@@ -125,7 +125,8 @@ public:
         main_iter_t,
         ForwardIterT,
         const_value_type,
-        boost::forward_traversal_tag
+        boost::forward_traversal_tag,
+        typename ForwardIterT::reference
     > type;
 };
 
